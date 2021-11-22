@@ -1,0 +1,21 @@
+{
+    "pluginName": "文本自动加空格",
+    "description": "github 空格之神改装的插件",
+    "logo":"space.jpg",
+    "preload": "preload.js",
+    "version": "1.2.0",
+    "author": "wtychn",
+    "features": [{
+        "code": "add_space",
+        "explain": "文本自动加空格",
+        "cmds": [
+            {
+                "type": "over",
+                "label": "自动加空格"
+            }
+        ]
+    }],
+    "pluginSetting": {
+        "single": true
+    }
+}
